@@ -53,7 +53,7 @@ llm = init_chat_model(
     timeout=300
     )
 
-async def get_tools_list() -> List[Dict[str, Any]]:
+async def get_tools_list() -> str:
     """
     Get the list of tools from the configuration file.
     """
